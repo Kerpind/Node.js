@@ -39,4 +39,15 @@ HTML 소스에서 태그를 수정하려고 한다면 각 파일의 태그를 �
 
 이런걸 Node.js 설정을 통해 작업을 할 수 있습니다.
 
-## 3. 
+## 3. Node.js 설치파일 방법
+
+>https://nodejs.org/ko/
+
+해당 Url에서 설치 파일을 다운받아 설치 후 cmd창을 통해 'node -v'나, 'node', 'npm'을 통해 설치가 된건지 확인할 수 있다.
+
+프로젝트 생성 후 js파일을 생성하여 console을 적어주고, cmd 창에서 해당 디렉토리 경로로 이동 후 해당 js를 node로 부르면 comsole의 값이 표시되게 된다.
+
+![img.png](img.png)
+
+
+
