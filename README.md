@@ -113,3 +113,5 @@ readdir을 통해서 특정 디렉토리의 파일들의 정보를 불러올 수
 > fs.readdir(testFolder, function(error, filelist){ console.log(filelist); })
 
 그걸 통해서 디렉토리의 파일의 리스트를 호출, 표현해줄 수 있다.
+
+
