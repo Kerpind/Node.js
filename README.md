@@ -81,4 +81,35 @@ String을 변수에 넣게 되면 줄 바꿈이나 데이터를 넣는 방식에
 
 쿼리스트링의 경우 ? 로 시작되고, 값과 값은 & 를 써서 구분, 값의 이름과 값은 = 을 쓰기로 약속되어있다.
 
-## 7.
+## 7. Node.js의 파일 읽기 기능, 파일을 이용해 본문 구현
+
+readFile을 통해서 같은 경로안에 있는 파일을 호출해오는 형태로 판단된다.
+
+> HTML 화면에서 image를 불러오지 못하는 이유는 서버에 이미지 파일이 없기 때문이다.  
+> 서버 기동 후 요청 Url이 root로 시작되기에 이미지를 못불러오는 것이다.  
+> 자세한건 좀 더 테스트를 진행해야 할 것 같다.  
+> 참고 Url : https://not-to-be-reset.tistory.com/263  
+> 그리고 Main으로 넘어갔을 때 undifind가 뜨는 이유도 찾아봐야 할 것 같다.
+
+## 8. 조건문
+
+conditional
+
+## 9. App 제작 - 홈페이지 구현
+
+7의 메모에 보면 Main의 undifind의 경우 구현을 하지 않아서 그렇다.  
+구현 작업 후 강의 마지막 부분에서 얘기하시는게 하단의 부분이 빠져도 된다고 하셨다.
+
+> if (pathName === '/') {  
+> if (queryData.id === undefined) {  
+> fs.readFile(`data/${queryData.id}`, 'utf-8', function (err, description) {
+
+왜 그럴까 고민 해봤는데 Main 페이지의 경우 queryData.id의 값이 필요 없기 때문이다.
+
+## 10. 글목록 츌력하기
+
+readdir을 통해서 특정 디렉토리의 파일들의 정보를 불러올 수 있다.
+
+> fs.readdir(testFolder, function(error, filelist){ console.log(filelist); })
+
+그걸 통해서 디렉토리의 파일의 리스트를 호출, 표현해줄 수 있다.
