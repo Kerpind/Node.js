@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "1990에 WEB이 처음 등장하면서 WEB페이지에 표현이 가능해지면서, 종이로 되어있는 정보들을 WEB페이지에 담기 시작하였습니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerpind/Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kerpind/Node.js/issues"
+  },
+  "homepage": "https://github.com/Kerpind/Node.js#readme",
+  "dependencies": {
+    "sanitize-html": "^2.7.0"
+  }
+}
