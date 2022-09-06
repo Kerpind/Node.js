@@ -237,5 +237,3 @@ script 태그 자체를 넣어도 사용할 수 없게 하는 것 입니다.
 
 시청 중..
 https://www.youtube.com/watch?v=_yEH9mczm3g&list=PLRx0vPvlEmdD1pSqKZiTihy5rplxecNpz
-
-
