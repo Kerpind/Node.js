@@ -235,8 +235,8 @@ script 태그 자체를 넣어도 사용할 수 없게 하는 것 입니다.
 > pm2 start main.js --watch --ignore-watch="data/* sessions/*" --no-daemon
 
 
-시청 중..
-https://www.youtube.com/watch?v=_yEH9mczm3g&list=PLRx0vPvlEmdD1pSqKZiTihy5rplxecNpz
+## 시청 중..
+> https://www.youtube.com/watch?v=_yEH9mczm3g&list=PLRx0vPvlEmdD1pSqKZiTihy5rplxecNpz
 
 공부하면서 검색하고 알게 된 것들에 대해 정리하는 곳입니다.
 
@@ -248,8 +248,8 @@ https://www.youtube.com/watch?v=_yEH9mczm3g&list=PLRx0vPvlEmdD1pSqKZiTihy5rplxec
 PM2의 경우는 패키지 매니저라고 생각하면 된다. 예를 들어서 Node.js에 모듈들이 PM2도 있고~ React도 있고~ 등등 있는거고, 그걸 관리 해주는게 npm 인거고, PM2는 모듈 중 하나인 것이다.
 (내가 잘못 이해한거라면.. 다시 찾아볼 필요가 있을 것 같다.)
 
-관련글 
-npm - https://hellominchan.tistory.com/10
+관련글   
+npm - https://hellominchan.tistory.com/10  
 PM2 - https://hellominchan.tistory.com/11?category=843604
 
 4. 강의 중 Material UI를 알려주는데, 이건 React UI 라이브러리 중 하나라고 한다.
