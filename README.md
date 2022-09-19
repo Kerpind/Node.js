@@ -237,3 +237,25 @@ script 태그 자체를 넣어도 사용할 수 없게 하는 것 입니다.
 
 시청 중..
 https://www.youtube.com/watch?v=_yEH9mczm3g&list=PLRx0vPvlEmdD1pSqKZiTihy5rplxecNpz
+
+공부하면서 검색하고 알게 된 것들에 대해 정리하는 곳입니다.
+
+1. 연동을 통해 Vue.js + Node.js Or React + Node.js 형태로 구성한다.
+
+2. 아직 찾지 못했지만.. 현재 찾은건 Node.js를 구성 후 Jar파일 설정을 하여 연동하는 방식을 찾았다. 반대로 Java에서 Node.js를 설정하는걸 찾아야겠다.
+
+3. 14번에 보면 PM2와 npm에 대한 설명을 잘못 적은것 같아서 수정하려고 한다. npm은 Node.js 개발자들이 패키지(모듈)의 설치 및 관리를 쉽게 하기 위해! 도와주는 매니저 이고,
+PM2의 경우는 패키지 매니저라고 생각하면 된다. 예를 들어서 Node.js에 모듈들이 PM2도 있고~ React도 있고~ 등등 있는거고, 그걸 관리 해주는게 npm 인거고, PM2는 모듈 중 하나인 것이다.
+(내가 잘못 이해한거라면.. 다시 찾아볼 필요가 있을 것 같다.)
+
+관련글 
+npm - https://hellominchan.tistory.com/10
+PM2 - https://hellominchan.tistory.com/11?category=843604
+
+4. 강의 중 Material UI를 알려주는데, 이건 React UI 라이브러리 중 하나라고 한다.
+(Material UI와 Vue.js의 차이를 모르겠다.. React와 Vue.js 중 하나를 쓰는걸로 이해가 되는데.. 아아 검색하다가 이해했다. React와 Vue.js는 JavaScript 라이브러리이고, UI 라이브러리는 따로 있는것이다.)
+
+5. 2번이 해결이 된다면, 작업물에 반영하여 테스트를 해보는게 좋을 것 같다. 현재 찾은거로 테스트를 해보려면.. Node.js 작업 이후에 하는것 밖에 모르기에.. 그래도 하려고 한다면 방법은 구상이 되기는 한다. 5강에 정보 표출 형태를 따라한다면 충분히 가능하리라 생각된다.
+
+
+
