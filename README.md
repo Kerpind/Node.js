@@ -261,3 +261,4 @@ PM2 - https://hellominchan.tistory.com/11?category=843604
 
 7. V8엔진부터, Node.js, Express.js까지.. 플랫폼과 프레임워크에 대해 이해가 잘 되지 않다보니.. 혼동이 온다.. 플랫폼은 쟁반이고 그 안에 담기는것들이 프레임워크..? 정도로 이해된다.
 
+
